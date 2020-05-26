@@ -13,7 +13,7 @@ SECRET_KEY = '@#&@p1z5^hh=848)ydyheup2g3pkgd#y$+x-tl45o8rarf-=%s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -66,7 +66,7 @@ WSGI_APPLICATION = 'proyectointegrador1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Taller3',                     
+        'NAME': 'taller3',                     
         'USER': 'clopezr9@pi1-eafit-db1',                     
         'PASSWORD': 'pgnBVH22',                  
         'HOST': 'pi1-eafit-db1.mysql.database.azure.com',                     
