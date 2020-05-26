@@ -69,7 +69,7 @@ DATABASES = {
         'NAME': 'taller3',                     
         'USER': 'clopezr9@pi1-eafit-db1',                     
         'PASSWORD': 'pgnBVH22',                  
-        'HOST': 'pi1-eafit-db1.mysql.database.azure.com',                     
+        'HOST': 'pi1-eafit-db1.mysql.database.azure.com',                   
         'PORT': '3306',
     }
 }
